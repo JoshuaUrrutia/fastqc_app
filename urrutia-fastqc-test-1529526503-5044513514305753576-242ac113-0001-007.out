@@ -1,6 +1,0 @@
-container_exec jurrutia/fastqc:0.11.7 /FastQC/fastqc
-[INFO] 2018-06-20T22:37:21Z - /opt/singularity/2.3.1/bin/singularity
-[INFO] 2018-06-20T22:37:21Z - We're running under Singularity
-Docker image path: index.docker.io/jurrutia/fastqc:0.11.7
-Cache folder set to /home1/05369/urrutia/.singularity/docker
-Creating container runtime...
