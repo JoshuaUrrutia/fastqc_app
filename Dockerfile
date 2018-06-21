@@ -1,4 +1,4 @@
-FROM jurrutia/ubuntu17:0.1.0
+FROM jurrutia/apps:python3-edge
 
 # ENV PATH "/opt/bin/:$PATH"
 # ADD config.yml /config.yml
