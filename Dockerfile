@@ -1,9 +1,4 @@
-FROM jurrutia/apps:python3-edge
-
-# ENV PATH "/opt/bin/:$PATH"
-# ADD config.yml /config.yml
-# ADD src /opt/src
-
+FROM python:3.8
 
 RUN apt-get update \
     && apt-get upgrade -y \
@@ -11,9 +6,9 @@ RUN apt-get update \
     && apt-get install zip -y \
     && apt-get install default-jre -y
 
-RUN wget https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.7.zip \
-    && unzip fastqc_v0.11.7.zip \
-    && rm fastqc_v0.11.7.zip \
+RUN wget https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.9.zip \
+    && unzip fastqc_v0.11.9.zip \
+    && rm fastqc_v0.11.9.zip \
     && chmod +x FastQC/fastqc
 
 ENV PATH "/FastQC/:$PATH"
