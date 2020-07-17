@@ -9,7 +9,7 @@
   "defaultProcessorsPerNode": 1,
   "defaultNodeCount": 1,
   "defaultQueue": "normal",
-  "label": "{{ date_time.iso8601_micro }}",
+  "label": "FastQC",
   "modules": ["load tacc-singularity"],
   "shortDescription": "{{ app.description }}",
   "templatePath": "runner-template.sh",
